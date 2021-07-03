@@ -1,6 +1,6 @@
 ---
 layout: post
-title: template page
+title: 多线程基础——thread类
 categories: C++ concrurrency
 description: C++并发编程简介
 keywords: c++, 并发编程,std::thread
