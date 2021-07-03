@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 高级并发接口:future、promise、 package_task 和 async
-categories: cpp concurrency cpp_concurrency
+categories: cpp_concurrency
 description: C++并发编程简介
 keywords: c++, 并发编程,std::future,std::package_task,std::promise,std::async
 ---
