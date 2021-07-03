@@ -2,17 +2,13 @@
 layout: page
 title: About
 description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+keywords:will kall,fishlovee 
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
-
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+没心没肺，开开心心的活着
 
 ## 联系
 

@@ -4,14 +4,14 @@
 baseurl:
 url: https://mazhuang.org
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: 鱼 乐 
+subtitle: "没心没肺，开开心心的活着"
+description: ""
+keywords: C++, golang, 并发编程, 网络编程, 闷骚的程序员
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: mzlogin/mzlogin.github.io
+repository:fishlovee/fishlovee.github.io 
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -26,7 +26,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2020-05-03
+        start_date: 2021-07-03
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -38,7 +38,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: 没心没肺的活着 
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -49,12 +49,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: will kall
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: fishlovee 
+location: ShenZhen, China
+email: wk0502008@163.com
 
 # ---------------- #
 #    Navigation    #
