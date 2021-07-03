@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://fishlovee.github.io/
 date_format: "ordinal"
 title: 鱼 乐 
 subtitle: "没心没肺，开开心心的活着"
@@ -15,7 +15,7 @@ repository:fishlovee/fishlovee.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
-        enabled: true
+        enabled: false
 # 可选组件配置
 components:
     # 分享
@@ -37,7 +37,7 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
+        enabled: false
         image_alt: 没心没肺的活着 
 # 压缩页面内容
 compress_html:
