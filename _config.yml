@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://fishlovee.github.io/
+url: https://fishlovee.github.io
 date_format: "ordinal"
 title: 鱼 乐 
 subtitle: "没心没肺，开开心心的活着"
