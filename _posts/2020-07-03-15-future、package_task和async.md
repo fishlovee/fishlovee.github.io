@@ -188,11 +188,13 @@ int main(){
 
     return 0;
 }
+```
 
 /*Nothing really special here. std::async will execute the task that we give it (here a lambda) and return a std::future. Once you use the get() function on a future, it will wait until the result is available and return this result to you once it is. The get() function is then blocking. Since the lambda, is a void lambda, the returned future is of type std::future<void> and get() returns void as well. It is very important to know that you cannot call get several times on the same future. Once the result is consumed, you cannot consume it again! If you want to use the result several times, you need to store it yourself after you called get().
 
 Let's see with something that returns a value and actually takes some time before returning it:*/
 
+```
 #include <thread>
 #include <future>
 #include <iostream>
@@ -210,12 +212,15 @@ int main(){
 
     return 0;
 }
+```
+
 This time, the future will be of the time std::future<int> and thus get() will also return an int. std::async will again launch a task in an asynchronous way and future.get() will wait for the answer. What is interesting, is that you can do something else before the call to future.
 
 But get() is not the only interesting function in std::future. You also have wait() which is almost the same as get() but does not consume the result. For instance, you can wait for several futures and then consume their result together. But, more interesting are the wait_for(duration) and wait_until(timepoint) functions. The first one wait for the result at most the given time and then returns and the second one wait for the result at most until the given time point. I think that wait_for is more useful in practices, so let's discuss it further. Finally, an interesting function is bool valid(). When you use get() on the future, it will consume the result, making valid() returns :code:`false. So, if you intend to check multiple times for a future, you should use valid() first.
 
 One possible scenario would be if you have several asynchronous tasks, which is a common scenario. You can imagine that you want to process the results as fast as possible, so you want to ask the futures for their result several times. If no result is available, maybe you want to do something else. Here is a possible implementation:
 
+```cpp
 #include <thread>
 #include <future>
 #include <iostream>
